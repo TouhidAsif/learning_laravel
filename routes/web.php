@@ -18,3 +18,4 @@ Route::get('about', function () {
     $arrays=['one','two','three'];
     return view('about',compact('arrays'));
 });
+Route::resource('songs','SongsController');
