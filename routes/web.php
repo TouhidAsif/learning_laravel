@@ -19,3 +19,4 @@ Route::get('about', function () {
     return view('about',compact('arrays'));
 });
 Route::resource('songs','SongsController');
+//Route::resource('so','HomeController');
